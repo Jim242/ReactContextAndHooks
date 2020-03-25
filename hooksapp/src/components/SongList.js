@@ -14,11 +14,11 @@ const SongList = () => {
         setSongs([...songs, { title, id: uuid() }])
     }
 
-    useEffect(() => {
-    //Calls when ever the page or components re renders
-    // can limit the call in the array, to only call when that data has changed 
-        [songs]
-    })
+    // useEffect(() => {
+    // //Calls when ever the page or components re renders
+    // // can limit the call in the array, to only call when that data has changed 
+    //     []
+    // })
     return (
         <div className="song-list">
             <ul>
